@@ -1,0 +1,50 @@
+{
+  "name": "passport-rest",
+  "version": "1.0.0",
+  "description": "rest authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "local",
+    "auth",
+    "authn",
+    "authentication",
+    "username",
+    "password"
+  ],
+  "author": {
+    "name": "Patrick Poetschke",
+    "email": "patrick.poetschke@quantus.de",
+    "url": "http://www.quantus.de/"
+  },
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/quantussoftware/passport-rest.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x",
+    "ink-docstrap": "^0.4.12",
+    "jsdoc": "3.3.0-alpha13"
+  },
+  "devDependencies": {
+    
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "gendoc": "./node_modules/.bin/jsdoc -P package.json *.js -t ./node_modules/ink-docstrap/template -c ./doc/conf/conf.json -d ./doc/out"
+  },
+  "maintainers": [
+    {
+      "name": "Patrick Poetschke",
+      "email": "patrick.poetschke@quantus.de"
+    }
+  ]
+}
